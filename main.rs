@@ -1,4 +1,3 @@
-
 fn main () {
   let mut fizzbuzz: i32 = 0;
   let mut fizz: i32 = 0;
@@ -19,7 +18,6 @@ fn main () {
       }
       _ => continue
     }
-    println!("{}", i);
   }
   println!("found FizzBuzz = {} Fizz = {} Buzz = {}", fizzbuzz, fizz, buzz);
 }
